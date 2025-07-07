@@ -7,4 +7,8 @@ export default defineConfig({
   resolve: {
     dedupe: ['react', 'react-dom'],
   },
+   base: '/',
+  build: {
+    outDir: 'docs'
+  }
 })
